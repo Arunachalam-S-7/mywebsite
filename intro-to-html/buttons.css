@@ -1,0 +1,45 @@
+.sub {
+    background-color: rgb(200,0,0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+.sub:hover{opacity: 0.8;}
+.sub:active{opacity: 0.4;}
+.join {
+background-color: white;
+color: rgb(23, 94, 199);
+border-color: rgb(23, 94, 199); 
+border-style: solid; border-width: thin; 
+height: 36px;
+width: 70px;
+border-radius: 2px;   
+cursor: pointer;
+margin-right: 8px;
+transition: background-color 0.15s,
+color 0.15s;
+}
+.join:hover{
+background-color: rgb(23, 94, 199);
+color: white;
+}
+.join:active{opacity: 0.4;}
+.tweet {
+background-color: rgb(0, 183, 255);
+color: white;
+border: none;   
+height: 36px;
+width: 80px;
+border-radius: 50px;  
+font-weight: bold; font-size: 15px;
+cursor: pointer;
+margin-right: 8px;
+transition: box-shadow 0.15s;
+}
+.tweet:hover{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);}
+.tweet:active{opacity: 0.5;}
